@@ -1,7 +1,7 @@
 # Ignite (Node.JS): Challenge 1
 
 ### Intro
-This challenge consists of a Todo APP in Node.JS, including user creation and todo CRUD. The user can be 'premium' or 'free', the latter being limited to 10 todos.
+This challenge consists of a Todo APP in Node.JS, including user creation and todo CRUD. The user can be 'premium' or 'free', the latter being limited to 10 todos. The intent of this project is to study and train the concepts of Node.JS, including Middleware, Express and unit testing (jest).
 
 ## Routes
 
