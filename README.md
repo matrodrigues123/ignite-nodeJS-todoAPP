@@ -1,7 +1,7 @@
 # Ignite (Node.JS): Challenge 1
 
 ### Intro
-This challenge consists of a Todo APP in Node.JS, including user creation and todo CRUD.
+This challenge consists of a Todo APP in Node.JS, including user creation and todo CRUD. The user can be 'premium' or 'free', the latter being limited to 10 todos.
 
 ## Routes
 
@@ -17,6 +17,13 @@ The route receives `name` and `username` from the application's body and should 
 	todos: []
 }
 ```
+### GET `/users/:id`
+
+Finds users by ID.
+
+### PATCH `/users/:id/pro`
+
+Change the user status to pro if it currently isn't.
 
 ### GET `/todos`
 
